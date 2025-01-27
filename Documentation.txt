@@ -106,7 +106,7 @@ Download application code from S3 and start the application
 cd ~/ 
 sudo aws s3 cp s3://<S3BucketName>/application-code/app-tier/ app-tier --recursive
 
-Ex: sudo aws s3 cp s3://demo-3tier-project/application-code/app-tier/ app-tier --recursive
+Ex: sudo aws s3 cp s3://demo-3tier-project/3TierArchitectureApp/application-code/app-tier/ app-tier --recursive
 
 ls ---> You will see 'app-tier' folder
 
